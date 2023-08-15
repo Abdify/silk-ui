@@ -3,6 +3,8 @@
 `component/button`
 `bugfix/click-issue`
 
+Always create new branch from `development`
+
 ```js
 git pull origin development
 git add .
