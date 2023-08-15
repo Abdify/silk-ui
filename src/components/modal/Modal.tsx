@@ -5,7 +5,7 @@ type ModalProps = {
 };
 
 const Modal = ({ children }: ModalProps) => {
-  return <button>{children}</button>;
+  return <div>{children}</div>;
 };
 
 export default Modal;
