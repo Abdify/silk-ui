@@ -1,11 +1,11 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode } from 'react';
 
 type ModalProps = {
   children: ReactNode;
 };
 
 const Modal = ({ children }: ModalProps) => {
-  return <button>{children}</button>;
+  return <div>{children}</div>;
 };
 
 export default Modal;
