@@ -72,6 +72,17 @@
     "react": ">=16",
     "react-dom": ">=16"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,json,md}": [
+      "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
+      "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json}"
+    ]
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
