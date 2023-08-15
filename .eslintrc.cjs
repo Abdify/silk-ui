@@ -25,5 +25,9 @@ module.exports = {
       typescript: {},
     },
   },
-  rules: {},
+  rules: {
+    'no-console': 'warn',
+    // Treat these comments as warnings
+    'no-warning-comments': ['warn', { terms: ['fixme'], location: 'start' }],
+  },
 };
