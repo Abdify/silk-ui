@@ -74,3 +74,8 @@ This project is open-source and is licensed under the MIT License. See the LICEN
 ## Conclusion
 
 Thank you for joining the Silk UI community! We appreciate your contributions and look forward to building an amazing collection of components together. Happy coding!
+
+Light weight
+Clean
+Accessible
+Transition
