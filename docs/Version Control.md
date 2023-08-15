@@ -1,3 +1,8 @@
+## Branch naming convention
+
+`component/button`
+`bugfix/click-issue`
+
 ```js
 git pull origin development
 git add .
@@ -6,4 +11,6 @@ git pull origin development
 git push
 ```
 
-Create Pull Request to `development` branch
+Create Pull Request to `development` branch.
+
+Your pull request will be merged soon.
