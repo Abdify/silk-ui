@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function Timeline() {
-  return <div>Timeline</div>;
+  return <div>Timeline husky check</div>;
 }
