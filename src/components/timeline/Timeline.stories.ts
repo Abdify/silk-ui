@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 import Timeline from './Timeline';
 
 // type Event = {
@@ -17,13 +17,13 @@ const meta: Meta = {
 
 export default meta;
 
-// export const Primary = (args: TimelineProps) => (
-//   <Timeline {...args} />
-// );
+type Story = StoryObj<typeof meta>;
 
-// Primary.args = {
-//   events: [
-//     { date: '2023-01-01', description: 'Event 1' },
-//     { date: '2023-02-01', description: 'Event 2' },
-//   ],
-// };
+export const Base: Story = {
+  args: {
+    events: [
+      { date: '2023-01-01', description: 'Event 1' },
+      { date: '2023-02-01', description: 'Event 2' },
+    ],
+  },
+};

@@ -12,7 +12,7 @@ export default function Timeline({ events }: TimelineProps) {
     <div className='timeline' data-testid='timeline'>
       {events.map((event, index) => (
         <div key={index} className='timeline-event'>
-          <div className='event-date'>{event.date}</div>
+          <div className='event-date border-2'>{event.date}</div>
           <div className='event-description'>{event.description}</div>
         </div>
       ))}
